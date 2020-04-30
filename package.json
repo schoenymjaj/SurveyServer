@@ -1,0 +1,21 @@
+{
+  "name": "rest-endpoint",
+  "version": "1.0.0",
+  "description": "rest endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "clone": "^2.1.2",
+    "express": "4.16.2",
+    "mongoose": "^5.7.7",
+    "request": "^2.88.0",
+    "winston": "^2.4.4",
+    "words-to-numbers": "^1.5.1"
+  }
+}

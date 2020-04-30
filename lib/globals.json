@@ -1,0 +1,15 @@
+{
+  "loggerConfigParms": {},
+  "logger": {},
+  "modeType": {
+    "default": 0,
+    "user": 1,
+    "session": 2
+  },
+  "requestforLogging": {},
+  "mongoose": {},
+  "Author": {},
+  "Book": {}
+}
+
+
