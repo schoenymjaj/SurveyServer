@@ -6,6 +6,6 @@ module.exports = {
             email: process.env.REGISTRY_EMAIL
         }
     },
-    port: process.env.NODE_PORT || 8085,
+    port: process.env.NODE_PORT || 3000,
     dbenabled: process.env.DB_ENABLED || 'false'    
 };
