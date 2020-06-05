@@ -38,12 +38,6 @@ const http = require('http').Server(app);
 
 app.use(userRequestLogger);
 
-globals.logger.log('verbose',"Initial Mongo database enabled:" + config.dbenabled);
-console.log("Initial Mongo database enabled:" + config.dbenabled)
-if (config.dbenabled == 'true') {
-    data.performDataSetup();
-}
-
 app.use('/', basicRouter);
 
 app.use(errorLogger);
